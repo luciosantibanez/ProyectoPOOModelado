@@ -6,8 +6,9 @@ public class Item {
     }
 
     public Item(String nombre, int cantidad) {
-        this.cantidad = cantidad;
         this.nombre = nombre;
+        this.cantidad = cantidad;
+
     }
 
     public String getNombre() {
