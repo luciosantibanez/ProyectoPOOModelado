@@ -1,18 +1,17 @@
-public class Arma extends Item{
+public class Ropa extends Item{
 
     private int disparo;
     private String tipo;
 
-    //CONSTRUCTORES
-    public Arma() {
+    public Ropa() {
     }
 
-    public Arma(int disparo, String tipo) {
+    public Ropa(int disparo, String tipo) {
         this.disparo = disparo;
         this.tipo = tipo;
     }
 
-    public Arma(String nombre, int cantidad, int disparo, String tipo) {
+    public Ropa(String nombre, int cantidad, int disparo, String tipo) {
         super(nombre, cantidad);
         this.disparo = disparo;
         this.tipo = tipo;

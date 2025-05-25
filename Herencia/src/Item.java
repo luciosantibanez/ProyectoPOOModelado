@@ -1,13 +1,13 @@
 public class Item {
     private String nombre;
-    private int cantidad;
+    private String color;
 
     public Item() {
     }
 
-    public Item(String nombre, int cantidad) {
+    public Item(String nombre, String color) {
         this.nombre = nombre;
-        this.cantidad = cantidad;
+        this.color= color;
 
     }
 
@@ -15,7 +15,7 @@ public class Item {
         return nombre;
     }
 
-    public int getCantidad(){
-        return cantidad;
+    public int getColor(){
+        return color;
     }
 }
