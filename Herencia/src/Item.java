@@ -8,14 +8,13 @@ public class Item {
     public Item(String nombre, String color) {
         this.nombre = nombre;
         this.color= color;
-
     }
 
     public String getNombre() {
         return nombre;
     }
 
-    public int getColor(){
+    public String getColor(){
         return color;
     }
 }
