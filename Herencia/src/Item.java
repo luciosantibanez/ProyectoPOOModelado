@@ -17,4 +17,9 @@ public class Item {
     public String getColor(){
         return color;
     }
+
+    @Override
+    public String toString() {
+        return "Item " + nombre + ", color " + color;
+    }
 }

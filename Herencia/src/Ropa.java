@@ -21,4 +21,9 @@ public class Ropa extends Item{
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+    @Override
+    public String toString() {
+        return "Item " + getNombre() + ", color " + getColor() + ", tipo " + tipo;
+    }
 }

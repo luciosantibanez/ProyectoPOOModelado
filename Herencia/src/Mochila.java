@@ -14,7 +14,7 @@ public class Mochila {
 
     public void displayMochila() {
         for (Item item : items) {
-            System.out.println("Item: " + item.getNombre() + ", Cantidad : " + item.getColor());
+            System.out.println(item.toString());
         }
     }
 
