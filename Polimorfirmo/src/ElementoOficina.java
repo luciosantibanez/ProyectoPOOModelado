@@ -1,4 +1,4 @@
-public abstract class ElementoOficina {
+public  class ElementoOficina {
     private String nombre;
 
     public void mostrarElementos(){
