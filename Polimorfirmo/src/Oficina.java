@@ -2,22 +2,22 @@ import java.util.ArrayList;
 
 public class Oficina {
 
-    private ArrayList<ElementoOficina> muebles;
+    private ArrayList<ElementoOficina> elementos;
 
 
     public Oficina() {
-        muebles=new ArrayList<>();
+        elementos=new ArrayList<>();
     }
 
-    public void addItem(ElementoOficina mueble){
-        muebles.add(mueble);
+    public void agregarElemento(ElementoOficina elemento) {
+        elementos.add(elemento);
     }
 
-    public void displayCasa() {
-        for (ElementoOficina mueble : muebles) {
-            System.out.println(mueble.toString());
+    public void mostrarTodo() {
+        System.out.println("Contenido de la oficina:");
+        for (ElementoOficina e : elementos) {
+            e.mostrarElementos();
         }
-
 
     }
 }
