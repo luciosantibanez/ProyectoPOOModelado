@@ -7,7 +7,7 @@ public class Computadora extends ElementoOficina {
     }
 
     @Override
-    public String toString(){
-        return "Nombre: " + getNombre() + ", Tipo: " + SO;
+    public void mostrarElementos() {
+        System.out.println("Mueble: " + getNombre() + ", Tipo: " + SO);
     }
 }

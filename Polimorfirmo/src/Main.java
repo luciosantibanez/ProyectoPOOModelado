@@ -7,12 +7,14 @@ public class Main {
     Empleado empleado1 = new Empleado("Lucio","Programador");
     Mueble mueble1 = new Mueble("Escritorio", "Ejecutivo");
     Computadora pc1 = new Computadora("HP", "Windows 11");
+    ElementoOficina generico = new ElementoOficina("cosa");
 
 
 
     oficina.agregarElemento(empleado1);
     oficina.agregarElemento(mueble1);
     oficina.agregarElemento(pc1);
+    oficina.agregarElemento(generico);
 
     oficina.mostrarTodo();
 

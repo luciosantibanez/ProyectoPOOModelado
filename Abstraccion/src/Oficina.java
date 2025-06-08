@@ -16,7 +16,7 @@ public class Oficina {
     public void mostrarTodo() {
         System.out.println("Contenido de la oficina:");
         for (ElementoOficina e : elementos) {
-            System.out.println(e.toString());
+            e.mostrarElementos();
         }
 
     }

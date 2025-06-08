@@ -11,7 +11,7 @@ public class Empleado extends ElementoOficina{
     }
 
     @Override
-    public String toString() {
-        return "Empleado: " + getNombre() + ", Puesto: " + puesto;
+    public void mostrarElementos() {
+        System.out.println("Empleado: " + getNombre() + ", Puesto: " + puesto);
     }
 }

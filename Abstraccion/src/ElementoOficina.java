@@ -1,4 +1,4 @@
-public  class ElementoOficina {
+public abstract class ElementoOficina {
     private String nombre;
 
 
@@ -18,8 +18,5 @@ public  class ElementoOficina {
         this.nombre = nombre;
     }
 
-    @Override
-    public String toString() {
-        return "Elemento genérico: " + nombre;
-    }
+    public abstract void mostrarElementos();
 }
