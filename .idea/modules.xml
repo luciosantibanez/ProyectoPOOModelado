@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Abstraccion/Abstraccion.iml" filepath="$PROJECT_DIR$/Abstraccion/Abstraccion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Abstraccion2/Abstraccion2.iml" filepath="$PROJECT_DIR$/Abstraccion2/Abstraccion2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Encapsulacion/Encapsulacion.iml" filepath="$PROJECT_DIR$/Encapsulacion/Encapsulacion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Herencia/Herencia.iml" filepath="$PROJECT_DIR$/Herencia/Herencia.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polimorfirmo/Polimorfirmo.iml" filepath="$PROJECT_DIR$/Polimorfirmo/Polimorfirmo.iml" />

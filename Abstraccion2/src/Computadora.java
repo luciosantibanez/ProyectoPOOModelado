@@ -8,6 +8,6 @@ public class Computadora extends ElementoOficina {
 
     @Override
     public void mostrarElementos() {
-        System.out.println("Mueble: " + getNombre() + ", Tipo: " + SO);
+        System.out.println("Computadora: " + getNombre() + ", Tipo: " + SO);
     }
 }
